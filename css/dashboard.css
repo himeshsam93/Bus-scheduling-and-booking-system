@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.rcontainer{
+    border-radius: 25px;
+    border: 2px solid rgb(0, 115, 168);
+    padding: 20px; 
+    width: 300px;
+    height: 200px; 
+    background-color: white;
+    box-shadow: 10px;
+    
+
+}
+
+.rcontainer:hover{
+
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}

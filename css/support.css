@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #b9aeae;
+    position: relative;
+}
+/* for background images */
+.bg_image_container_about{
+
+    background-image: url("../Assets/Images/Home/Background_image_1.png");
+    height: auto;
+ 
+   
+}
+
+.bus{
+    height:450px;
+    width:1518px;
+}
+.qs{
+    width: 200px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+}
+
+
+.custom1{
+    border:2px solid #ccc;
+    padding: 20px; /* Padding to create space between content and border */
+    width: 700px; /* Adjust width as needed */
+}
+
+.border{
+    border:2px solid #ccc;
+    padding: 20px; /* Padding to create space between content and border */
+    width: 300px; /* Adjust width as needed */
+    
+}
+
+ /* Style for the submit button */
+ .custom-button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ 
+   /* Style for the cancel button */
+   .custom-button1 {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  css    /* horizontal line*/
+hr.fade-in-text {
+    color: gray;
+    size: 3px;
+    width: 70%;
+    padding-left: 80px;
+    padding-right: 80px;
+}                        
+.supp1{
+    border: 1px solid #dab5eb;
+    width: 1000px;
+  }
+.supp{
+    text-align: center;
+    color: #a7a6aa;
+    font-size: 23px;
+  }
+.supp:hover{
+  
+    color: #404041;
+  }
+
+  
+

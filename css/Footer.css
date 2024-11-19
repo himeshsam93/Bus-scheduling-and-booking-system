@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* Footer styles*/
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image:linear-gradient(to right,#000428,#004E92);
+}
+.footer_text{
+
+    font-size: 13px;
+}
+p a{
+
+    text-decoration: none;
+    color: #d3d3d3;
+}
+.social_media{
+
+    height: 15px;
+    width: 15px;
+    margin: 8px;
+    display: inline-block;
+}

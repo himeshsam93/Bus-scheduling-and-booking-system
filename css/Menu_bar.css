@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* menu bar links styles */
+.menu_bar_logo{ 
+
+    height: 30px;
+    width: 40px;
+    padding-left: 200px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+.menu_ul{
+    list-style-type: none;
+    margin: 10px; /* 0px */
+    padding: 10px;
+    padding-left: 170px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.menu_li{
+
+    display: inline;
+    float: left;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+    /*font-family: 'Evolventa', sans-serif;
+    font-weight: 700; Bold
+    font-weight: 400;  Normal */
+    
+    /*font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;  Bold  
+    font-weight: 800;  Extra Bold  */
+    
+}
+
+li a {
+    color: gainsboro; /* menu bar text color */
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline;
+}
+li a:hover{
+
+    color: white;
+}
+/* menu bar sign in icon styles */
+.menu_icon_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-left: 130px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.logging_icon{
+
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+.sign_in_button_ul{
+
+    list-style-type: none;
+    margin: 10px; /* 0px */
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+/* sign in button styles */
+ul li.signing a {
+    padding: 0px 0px;
+}
+

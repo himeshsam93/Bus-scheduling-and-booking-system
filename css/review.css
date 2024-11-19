@@ -1,0 +1,35 @@
+.btn{
+
+    height: 35px;
+    width:100px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container1{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .6);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    max-width: 65%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    align-items: center;
+}
+

@@ -1,0 +1,71 @@
+/* for background images */
+.bg_image_container_client{
+
+    background-image: url("../Assets/Images/Home/Background_image_mesh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.cap{
+
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    mix-blend-mode: overlay;
+    
+}
+
+.text{
+    font-size: 12px;
+    color: #d3d3d3;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap:20px;
+}
+
+.card{
+    padding: 20px;
+    border: 2px solid;
+    border-color:lightgrey;
+    border-radius: 5px;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 200px;
+} 
+
+.card .head{
+    position: absolute;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 25px;
+   
+}
+
+.card .btn{
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    color:lightgray;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+.btn:hover{
+    background-color:black;
+}
+
+.text2{
+    font-size: 20px;
+    color: #fff;
+}

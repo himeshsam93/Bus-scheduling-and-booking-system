@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+.table_class1{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .6);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 90px;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding: 100px; 
+    table-layout: auto;
+    text-align: center;
+}
+
+.form{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .6);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 90px;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 100px; 
+    table-layout: auto;
+}
+.form p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: lightgray;
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+}
+.form input[type=date] {
+    width: 490px;
+    height: 45px;
+    font-size: large;
+    border-radius: 8px;
+    border-color: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    padding:5px;
+    padding-left: 5px;
+    color: rgb(95, 95, 95);
+ }
+ .form button{
+    width:245px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    color: #ccc;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: #ccc;
+
+ }
+ 
+
+ .form input[type=text]{
+    width: 490px;
+    height: 45px;
+    font-size: large;
+    border-radius: 8px;
+    border-color: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    padding:5px;
+    padding-left: 5px;
+    color: rgb(95, 95, 95);
+ }
+ .form input[type=email]{
+    width: 490px;
+    height: 45px;
+    font-size: large;
+    border-radius: 8px;
+    border-color: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    padding:5px;
+    padding-left: 5px;
+    color: rgb(95, 95, 95);
+ }
+ .form input[type=tel]{
+    width: 490px;
+    height: 45px;
+    font-size: large;
+    border-radius: 8px;
+    border-color: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    padding:5px;
+    padding-left: 5px;
+    color: rgb(95, 95, 95);
+ }
+ .form input[type=checkbox]{
+
+   padding:10px;
+ }

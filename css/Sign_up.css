@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* Sign up and login styles */
+
+
+/* sign up, login in form background style */
+
+.container_signin{
+
+    background-image: url("../Assets/Images/Home/Background_image_mesh.png");
+    height: 1150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* container that wraps the whole form */
+.container{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .6);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 90px;
+    margin: 0px;
+    align-items: center;
+}
+/*
+.container:hover{
+
+    border: 2px solid rgba(255, 255, 255, 0.739);
+    
+
+}
+*/
+/* input field sub headings */
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: lightgray;
+    display: inline-block;
+    margin: 1px;
+}
+/* all input boxes styles */
+input, select{
+
+    height: 25px;
+    width: 80%;
+    border-radius: 8px;
+    border: 3px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border: 3px solid #b2b2b2;
+}
+
+input::placeholder{
+
+    font-weight: 400;
+    color: gray;
+}
+
+/* required star mark */
+.req_class{
+    color: rgb(255, 0, 0);
+}
+
+/* sign up buttons */
+.btn{
+
+    height: 35px;
+    width: 83.5%;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    
+
+
+}
+/*
+button:hover{
+
+    border: 2px solid rgb(255, 255, 255);
+    background-image:linear-gradient(to right,#0168c2, #1cb5e0);
+    color: white;
+
+}
+*/
+/* Terms & conditions checkbox */
+.terms{
+
+    margin-top: 10px;
+    height: 1.2em;
+    width: 1.2em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms a{
+    text-decoration: none;
+    color:rgb(29, 191, 255);
+  
+}
+
+/* horizontanl line between sign up and social media links */
+.hrclass{
+
+    display: inline-block;
+    margin-top: 0px;
+    size:3px; 
+    width: 18px;
+
+}
+
+/* social media button images */
+.image_btn{
+    background: none;
+    border: none;
+    padding: 0;
+  }
+.image_btn img{
+    display: block;
+}

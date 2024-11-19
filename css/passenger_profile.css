@@ -1,0 +1,67 @@
+
+/* for background images */
+.bg_image_container_about{
+
+    background-image: url("../Assets/Images/Home/Background_image_mesh.png");
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   
+}
+
+.pass_prof{
+    color: #b9aeae;
+}
+
+.pass_underline{
+    color: #d5d8d7;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Driverratings */
+.Driver_feedback{
+    color: #1a0429;
+}
+
+/* star rating */
+.checked {
+    color: orange;
+  }
+  .passanger_feedback_underline{
+    color: #ccc;
+  }
+  .feedback{
+    color: #979393;
+  }
+
+  /* horizontal line*/
+hr.fade-in-text {
+    color: gray;
+    size: 3px;
+    width: 70%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+  .Driver_bio_1{
+    border: 1px solid #dab5eb;
+    width: 1000px;
+  }
+  .Driver_bio{
+    text-align: center;
+    color: #a7a6aa;
+    font-size: 23px;
+  }
+  .Driver_bio:hover{
+  
+    color: #404041;
+  }
+  .Driver_details{
+    color: #220131;
+  }
