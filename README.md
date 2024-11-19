@@ -68,7 +68,7 @@ The application utilizes the MySQL database within the XAMPP server to ensure ef
 </ul>
 
 
-<h2 style="font-size:22px;"><b>A huge shoutout to my amazing teammates:</b></h2><br>
+<h2 style="font-size:18px;"><b>A huge shoutout to my amazing teammates:</b></h2><br>
 <b>Ashika Wijesundara : https://github.com/ashika003</b><br>
 <b>Ryan Wijesekara : https://github.com/ryanwije</b><br>
 <b>Hasara Edirisinghe : https://github.com/hasaedirisinghe</b><br>
