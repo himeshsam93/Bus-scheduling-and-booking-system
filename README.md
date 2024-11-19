@@ -1,49 +1,82 @@
 # Bus_scheduling_and_booking_system
-Navibus is a comprehensive bus scheduling and booking platform built with HTML, PHP, and MySQL. It streamlines bus ticket ordering, passenger &amp; driver data management, and sales transactions.
+<h2 style="font-size:18px;"><b>Navibus</b> is a comprehensive bus scheduling and booking platform built with HTML, PHP, and MySQL. It streamlines bus ticket ordering, passenger &amp; driver data management, and sales transactions.
+<br><br>
+With a user-friendly design, Navibus offers an intuitive ticket booking experience for passengers and efficient management tools for administrators to handle schedules, reservations, and transactions. </h2>
 
-With a user-friendly design, Navibus offers an intuitive ticket booking experience for passengers and efficient management tools for administrators to handle schedules, reservations, and transactions. 
+<h2 style="font-size:22px;"><b>Features</b></h2>
 
-Features
+<ul>
+  
+ <li> <b>User Profile:</b> An intuitive interface for passengers to view and manage their ticket purchases seamlessly.</li>
+  
+  <li> <b>Driver Dashboard:</b> A dedicated interface for drivers to access and manage their bus ride schedules.</li>
+  
+  <li><b>Admin Dashboard: </b>Comprehensive tools for administrators to oversee operations, manage tickets, and address passenger and driver inquiries.</li>
+  
+ <li><b>Secure User Authentication:</b> Features secure login, registration, and password reset functionalities to safeguard user data.</li>
+  
+ <li><b>Ticket Management: </b>Provides detailed ticket views with options for purchasing and billing.</li>
+  
+ <li><b>Real-Time Updates:</b> Automatically syncs with database changes, ensuring users always access the latest information.</li>
 
-User Profile: An intuitive interface for passengers to view and manage their ticket purchases seamlessly.
-
-Driver Dashboard: A dedicated interface for drivers to access and manage their bus ride schedules.
-
-Admin Dashboard: Comprehensive tools for administrators to oversee operations, manage tickets, and address passenger and driver inquiries.
-
-Secure User Authentication: Features secure login, registration, and password reset functionalities to safeguard user data.
-
-Ticket Management: Provides detailed ticket views with options for purchasing and billing.
-
-Real-Time Updates: Automatically syncs with database changes, ensuring users always access the latest information.
+  
+</ul>
 
 
-Database Management
+
+<h2 style="font-size:22px;"><b>Database Management</b></h2>
 
 The application utilizes the MySQL database within the XAMPP server to ensure effective data handling and management. This approach provides a reliable foundation for maintaining and organizing data proficiently.
 
-Tables:
-* Passenger: Manages passenger information.
-* Driver: Records driver details.
-* Administrator: Stores admin-related data.
-* Bus: Contains bus details.
-* Customer Reviews: Captures passenger feedback on bus rides.
-* Price: Maintains ticket pricing details.
-* Reservation Details: Logs booking information.
-* Seat: Tracks seat availability and assignments.
+<b>Tables:</b>
+
+<ul>
+
+<li><b>Passenger: </b>Manages passenger information.</li>
+<li><b>Driver: </b>Records driver details.</li>
+<li><b>Administrator: </b>Stores admin-related data.</li>
+<li><b>Bus: </b>Contains bus details.</li>
+<li><b>Customer Reviews: </b>Captures passenger feedback on bus rides.</li>
+<li><b>Price:</b>Maintains ticket pricing details.</li>
+<li><b>Reservation Details: </b> Logs booking information.</li>
+<li><b>Seat: </b>Tracks seat availability and assignments.</li>
+
+</ul>
 
 
-Triggers: Auto-generation of primary keys for all tables ensures data integrity and consistency.
+
+<b>Triggers:</b> Auto-generation of primary keys for all tables ensures data integrity and consistency.
 
 
-Technologies Used
-
-* HTML, PHP: Primary programming language for the application.
-* CSS: used for styling
-* XAMPP server’s MYSQL Server: Database management system.
-* Javascript: For dynamic functionalities.
+<h2 style="font-size:22px;"><b>Technologies Used</b></h2>
+<ul>
 
 
+  <li>
+  <b>HTML, PHP: </b>Primary programming language for the application.
+    
+  </li>
+  <li>
+    <b>CSS:</b> used for styling
+  </li>
+  <li>
+  <b>  XAMPP server’s MYSQL Server:</b> Database management system.
+  </li>
+  <li>
+   <b> Javascript:</b> For dynamic functionalities.
+  </li>
+</ul>
+
+
+<h2 style="font-size:22px;"><b>A huge shoutout to my amazing teammates:</b></h2>
+<b>Ashika Wijesundara : https://github.com/ashika003</b>
+<b>Ryan Wijesekara : https://github.com/ryanwije</b>
+<b>Hasara Edirisinghe : https://github.com/hasaedirisinghe</b>
+<b>Shenali Gunaratne : https://github.com/Shenali12</b>
+
+
+
+<br><hr>
 <img width="1470" alt="Screenshot 2024-11-19 at 17 45 07" src="https://github.com/user-attachments/assets/e771b96c-71ab-41e2-9fbc-be9477acfbde">
 <img width="1470" alt="Screenshot 2024-11-19 at 17 46 06" src="https://github.com/user-attachments/assets/04022b80-dcdf-4f8b-8c7f-e5d6355ed9c1">
 <img width="1470" alt="Screenshot 2024-11-19 at 17 46 34" src="https://github.com/user-attachments/assets/36e66ede-ea26-46d7-9ad1-0716a4d90a5c">
